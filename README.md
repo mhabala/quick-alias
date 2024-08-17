@@ -16,6 +16,10 @@ curl -fsSL https://raw.githubusercontent.com/mhabala/quick-alias/main/install-sc
 quick-alias [options] [alias] [command]
 ```
 qa is an alias for quick-alias if not already defined
+Example:
+```bash
+qa ls 'ls -la'
+```
 
 Update quick-alias
 ```bash
