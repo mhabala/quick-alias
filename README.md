@@ -15,11 +15,17 @@ curl -fsSL https://raw.githubusercontent.com/mhabala/quick-alias/main/install-sc
 ```bash
 quick-alias [options] [alias] [command]
 ```
-qa is an alias for quick-alias
+qa is an alias for quick-alias if not already defined
 
+Update quick-alias
 ```bash
-qa-update='curl -fsSL $INSTALL_SCRIPT_URL | bash'" # Update quick-alias
+qa-update='curl -fsSL $INSTALL_SCRIPT_URL | bash'
 ```
 
 Options:
 -a, adds alias to all supported shells, without this option alias will be added only to the current shell
+
+Supported shells:
+- bash
+- zsh
+- fish
