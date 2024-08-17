@@ -21,9 +21,13 @@ Example:
 qa ls 'ls -la'
 ```
 
-Update quick-alias
+To update quick-alias run the following command:
 ```bash
-qa-update='curl -fsSL $INSTALL_SCRIPT_URL | bash'
+qa-update
+```
+which is an alias for:
+```bash
+curl -fsSL https://raw.githubusercontent.com/mhabala/quick-alias/main/install-script.sh | bash
 ```
 
 Options:
